@@ -11,8 +11,15 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    {% block content %}
-    {% endblock %}
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">PyShop</a>
+        </div>
+    </nav>
+    <div>
+      {% block content %}
+      {% endblock %}
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
